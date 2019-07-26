@@ -7,10 +7,9 @@
 
 
     <bean id="actor" class="com.stackroute.domain.Actor">
+        <constructor-arg index="1" value="1"></constructor-arg>
+        <constructor-arg name=""
 
-    <property name="actorName" value="Ranveer Singh" />
-    <property name="gender" value="Male" />
-    <property name="age" value="36" />
 
 </bean>
 
