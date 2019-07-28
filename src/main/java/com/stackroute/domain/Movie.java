@@ -1,8 +1,17 @@
 package com.stackroute.domain;
 
-public class Movie {
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+
+public  class Movie  implements ApplicationContextAware , BeanFactoryAware,BeanNameAware {
 
     private Actor actor1,actor2,actor3;
+    private ApplicationContext context = null;
+
 
     public Actor getActor1() {
         return actor1;
@@ -28,6 +37,12 @@ public class Movie {
         this.actor3 = actor3;
     }
 
+    @Override
+    public void setApplicationContext(ApplicationContext context) throws BeansException
+    {
+        this.context = context;
+    }
+
 
 
     public Movie() {
@@ -41,6 +56,16 @@ public class Movie {
                 ", actor2=" + actor2 +
                 ", actor3=" + actor3 +
                 '}';
+    }
+
+    @Override
+    public void setBeanName(String s) {
+        System.out.println("bean name is" + s);
+    }
+
+    @Override
+    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+
     }
 }
 
