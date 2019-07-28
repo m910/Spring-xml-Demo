@@ -1,34 +1,24 @@
 package com.stackroute.domain;
 
 public class Actor {
-    private String actorName,gender;
-    private int age;
+     String actorName,gender;
+     int age;
 
-
-    public String getActorName() {
-        return actorName;
+    public Actor() {
     }
 
-    public String getGender() {
-        return gender;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-
-    public void setActorName(String actorName) {
+    public Actor(String actorName, String gender, int age) {
         this.actorName = actorName;
-    }
-
-    public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public void setAge(int age) {
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Actor{" +
+                "actorName='" + actorName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

@@ -1,15 +1,21 @@
 package com.stackroute.domain;
 
 public class Movie {
-    private Actor actorRef;
+    Actor actorRef;
 
-    public Actor getActorRef() {
-        return actorRef;
+    public Movie() {
     }
 
-    public void setActorRef(Actor actorRef) {
+    public void Movie(Actor actorRef) {
+
         this.actorRef = actorRef;
     }
 
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "actorRef=" + actorRef +
+                '}';
     }
+}
 
