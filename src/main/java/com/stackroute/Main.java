@@ -20,12 +20,8 @@ public class Main {
 
 
 
-         Movie movie11 =context.getBean("movie1",Movie.class);
-            System.out.println(movie11.toString());
-         Movie movie22 =context.getBean("movie2",Movie.class);
-            System.out.println(movie22.toString());
-
-            System.out.println(movie11== movie22);
+         Movie movie1 =context.getBean("movie1",Movie.class);
+            System.out.println(movie1.toString());
 
 
         }

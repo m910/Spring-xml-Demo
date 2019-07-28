@@ -25,10 +25,11 @@
     </bean>
 
 
-    <bean name="movie1,movie2" class="com.stackroute.domain.Movie">
-        <constructor-arg name="actorRef" ref="actor1"></constructor-arg>
+    <!--<bean name="movie1" class="com.stackroute.domain.Movie" autowire="byName"></bean>-->
+    <bean name="movie1" class="com.stackroute.domain.Movie" autowire="byName">
 
     </bean>
+
 
 
 </beans>
