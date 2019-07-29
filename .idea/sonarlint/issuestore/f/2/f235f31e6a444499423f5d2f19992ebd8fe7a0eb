@@ -1,15 +1,10 @@
 
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ß±úÙúÿÿÿÿ8ï„æÂÃ-
-[
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ı¹Ÿ¾øÿÿÿÿ8ŠèÂÃ-
-nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(€¢¨Åûÿÿÿÿ8×£ÓÃÃ-
+{squid:UselessImportCheck"PRemove this unused import 'org.springframework.context.ApplicationContextAware'.(’ïı·8áõÍÅÃ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(óˆÒ¾ıÿÿÿÿ8ÀĞÈÅÃ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ñ÷ãşÿÿÿÿ8ÀĞÈÅÃ-
+Hsquid:S1481"*Remove this unused "movie" local variable.(Àº€œ8ÍÙÙÅÃ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®—ıÑ8–çüÄÃ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•Ñ°€şÿÿÿÿ8˜ÔÅÃ-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ö´”Ù8ßóÓÃÃ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ØÀ†‘8‡çåÂÃ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ıÚ£ø8°¹äÂÃ-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(âìÄ8ßóÓÃÃ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Šóäıÿÿÿÿÿ8×£ÓÃÃ-
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ™Ù¿8Ë™ÙÅÃ-
+Hsquid:S1481"*Remove this unused "actor" local variable.(Î¢–8ÀŞÅÃ-
